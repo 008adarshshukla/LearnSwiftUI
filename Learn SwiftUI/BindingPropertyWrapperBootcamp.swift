@@ -27,7 +27,7 @@ struct BindingPropertyWrapperBootcamp_Previews: PreviewProvider {
 }
 
 /*
- Binding Property wrapper is used to connect the stae properties of parent view to the child view.
+ Binding Property wrapper is used to connect the state properties of parent view to the child view.
  eg- We have a parent view that has backgroundColor as state variable and we have a subview, and inside this subview we want to change the backgroung color of the parent view so we declare the backgroundColor as Binding property wrapper in the subview to link it with the parent view.
  */
 

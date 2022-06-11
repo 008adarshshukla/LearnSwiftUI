@@ -40,6 +40,7 @@
 		02A90FA02854A18F00CD61A3 /* onTapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A90F9F2854A18F00CD61A3 /* onTapGestureBootcamp.swift */; };
 		02A90FA22854A60D00CD61A3 /* ModelsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A90FA12854A60D00CD61A3 /* ModelsBootcamp.swift */; };
 		02A90FA42854B05B00CD61A3 /* viewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A90FA32854B05B00CD61A3 /* viewModelBootcamp.swift */; };
+		02A90FA6285501A900CD61A3 /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A90FA5285501A900CD61A3 /* EnvironmentObjectBootcamp.swift */; };
 		02AA3CC5284DC45C0047ECEF /* StatePropertyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA3CC4284DC45C0047ECEF /* StatePropertyBootcamp.swift */; };
 		02AA3CC7284DCBD50047ECEF /* ExtractFuctionsAndViewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA3CC6284DCBD50047ECEF /* ExtractFuctionsAndViewsBootcamp.swift */; };
 		02AA3CC9284DD6020047ECEF /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA3CC8284DD6020047ECEF /* ExtractSubviewsBootcamp.swift */; };
@@ -94,6 +95,7 @@
 		02A90F9F2854A18F00CD61A3 /* onTapGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onTapGestureBootcamp.swift; sourceTree = "<group>"; };
 		02A90FA12854A60D00CD61A3 /* ModelsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsBootcamp.swift; sourceTree = "<group>"; };
 		02A90FA32854B05B00CD61A3 /* viewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModelBootcamp.swift; sourceTree = "<group>"; };
+		02A90FA5285501A900CD61A3 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		02AA3CC4284DC45C0047ECEF /* StatePropertyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyBootcamp.swift; sourceTree = "<group>"; };
 		02AA3CC6284DCBD50047ECEF /* ExtractFuctionsAndViewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractFuctionsAndViewsBootcamp.swift; sourceTree = "<group>"; };
 		02AA3CC8284DD6020047ECEF /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				02A90F9F2854A18F00CD61A3 /* onTapGestureBootcamp.swift */,
 				02A90FA12854A60D00CD61A3 /* ModelsBootcamp.swift */,
 				02A90FA32854B05B00CD61A3 /* viewModelBootcamp.swift */,
+				02A90FA5285501A900CD61A3 /* EnvironmentObjectBootcamp.swift */,
 			);
 			path = "Learn SwiftUI";
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				02259B2E2851E2F4008B9F99 /* ToggleBootcamp.swift in Sources */,
 				025423E2283F717D00BD29D4 /* ButtonsBootcamp.swift in Sources */,
 				02259B2A2851CD7D008B9F99 /* TextFieldBootacmp.swift in Sources */,
+				02A90FA6285501A900CD61A3 /* EnvironmentObjectBootcamp.swift in Sources */,
 				0267E4BA285355990058A6E2 /* OptionalsBootcamp.swift in Sources */,
 				025423E0283F64AA00BD29D4 /* SafeAreaBootcamp.swift in Sources */,
 				02A90FA22854A60D00CD61A3 /* ModelsBootcamp.swift in Sources */,

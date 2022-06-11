@@ -115,11 +115,13 @@ struct RandomView: View {
 }
 
 /*
- @Published notifies a class that on of its property has been changed and it needs to update it.
+ @Published notifies a class that the property marked @Published has been changed and it needs to update it. That means whenever an object with a property marked @Published is changed, all views using that object will be reloaded to reflect those changes in the corresponding property.
  
  @ObservedObject tells the view that it need to observe the corresponding object for changes.
  
  An object of a class can only be set to @ObservedObject if and only the class confroms to to ObservableObject Protocol.
+ 
+ Creating a class with ObservableObject protocol, means SwiftUI’s views can watch it for changes. If the class does not have @Published property then no announcement will be sent to SwiftUI
  
  In the View we have declared the object of FruitsViewModel as an @ObservedObject so that view is aware of any changes that happen  to the properties of this object and change the interface accordingly. But the down side is, if the view refreshes the properties of this also refreshes(sometimes, @ObservedObject could accidentally release the object it was storing) but we might want the data to persist even after the view refreshes so we can declare this object as @StateObject
  
