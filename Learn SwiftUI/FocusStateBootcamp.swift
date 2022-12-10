@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
-/*
- When only one field is present.
+
+ //When only one field is present.
  
  
  struct FocusStateBootcamp: View {
@@ -33,9 +33,9 @@ import SwiftUI
          }
      }
  }
- */
 
-struct FocusStateBootcamp: View {
+
+/*struct FocusStateBootcamp: View {
     
     enum FocusedField: Hashable {
         case textFieldFocused
@@ -78,7 +78,7 @@ struct FocusStateBootcamp: View {
             }
         }
     }
-}
+}*/
 
 struct FocusStateBootcamp_Previews: PreviewProvider {
     static var previews: some View {

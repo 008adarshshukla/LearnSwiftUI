@@ -33,7 +33,7 @@ struct PopOverBootcamp: View {
             }
             //Method 3 Using Animation Offset
             NewScreen(showNewScreen: $showNewScreen)
-                .padding(.top, 100)
+                .padding(.top, 200)
                 .offset(y: showNewScreen ? 0 : UIScreen.main.bounds.height)
                 .animation(.spring())
             

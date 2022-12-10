@@ -15,7 +15,7 @@ struct AsyncImages: View {
         //this version is not much customisable.
 //        AsyncImage(url: url)
         
-        //to get greater customisability use the folloeing completion
+        //to get greater customisability use the following completion
         //it returns the image(type: Image) corresponding to the url which can be customised.
 //        AsyncImage(url: url) { image in
 //            image
@@ -29,7 +29,7 @@ struct AsyncImages: View {
 
         //Another compltion with content of type AsyncImage Phase.
 //        Getting Load Phases
-//        case empty -> No image is loaded so use placeholder.
+//        case empty -> No image is loaded(still loading) so use placeholder.
 //        case success(Image) -> An image succesfully loaded, so put the image.
 //        case failure(Error) -> An image failed to load with an error so put the desired image or use the error returned.
         

@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-/*
- struct PickerBootcamp: View {
+
+ /*struct PickerBootcamp: View {
      
      @State var selection: String = "1"
      
@@ -53,8 +53,8 @@ import SwiftUI
          }
      }
  }
+*/
 
- */
 /*
  struct PickerBootcamp: View {
      
@@ -94,7 +94,7 @@ import SwiftUI
      }
  }
 
- */
+*/
 
 struct PickerBootcamp: View {
     
@@ -105,52 +105,56 @@ struct PickerBootcamp: View {
     
     var body: some View {
         VStack{
-            //            Picker(selection: $selection,
-            //                   content: {
-            //                ForEach(filterOptions, id: \.self) { option in
-            //                    Text(option).tag(option)
-            //                }
-            //
-            //            },
-            //                   label: {
-            //                Text("Filters : \(selection)")
-            ////                HStack {
-            ////                    Text("Filter:")
-            ////                    Text(selection)
-            ////                }
-            ////                .font(.headline)
-            ////                .foregroundColor(.white)
-            ////                .padding()
-            ////                .background(Color.blue)
-            ////                .cornerRadius(10)
-            ////                .shadow(color: Color.blue.opacity(0.3), radius: 10, x: 0, y: 10)
-            //
-            //            })
-            //            .foregroundColor(.white)
-            //        }
+                        Picker(selection: $selection,
+                               content: {
+                            ForEach(filterOptions, id: \.self) { option in
+                                Text(option).tag(option)
+                            }
             
+                        },
+                               label: {
+                            Text("Filters : \(selection)")
+                            HStack {
+                                Text("Filter:")
+                                Text(selection)
+                            }
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color.blue)
+                            .cornerRadius(10)
+                            .shadow(color: Color.blue.opacity(0.3), radius: 10, x: 0, y: 10)
             
-            HStack {
-                Text("Choose the filter")
-                Picker(selection: $selection) {
-                    ForEach(filterOptions, id: \.self) { option in
-                        HStack {
-                            Text(option).tag(option)
-                            //Image(systemName: "heart.fill")
-                        }
+                        })
+                        .foregroundColor(.white)
+                        //.pickerStyle(.wheel)
+            
+            Text(selection)
                     }
-                } label: {
-                    Text("Pick filter option")
-                }
-            }
-            .font(.headline)
-            .padding()
-            .background(Color.gray.opacity(0.2))
-            .cornerRadius(10)
+        
+            
+            
+//            HStack {
+//                Text("Choose the filter")
+//                Picker(selection: $selection) {
+//                    ForEach(filterOptions, id: \.self) { option in
+//                        HStack {
+//                            Text(option).tag(option)
+//                            //Image(systemName: "heart.fill")
+//                        }
+//                    }
+//                } label: {
+//                    Text("Pick filter option")
+//                }
+//            }
+//            .font(.headline)
+//            .padding()
+//            .background(Color.gray.opacity(0.2))
+//            .cornerRadius(10)
             
         }
     }
-}
+
 
 struct PickerBootcamp_Previews: PreviewProvider {
     static var previews: some View {

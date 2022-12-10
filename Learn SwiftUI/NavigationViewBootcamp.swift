@@ -52,6 +52,7 @@ struct NavigationViewBootcamp: View {
                 }
             }
         }
+        .navigationViewStyle(.stack)
     }
 }
 

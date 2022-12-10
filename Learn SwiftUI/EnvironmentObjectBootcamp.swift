@@ -41,7 +41,7 @@ struct EnvironmentObjectBootcamp: View {
             .listStyle(.insetGrouped)
             .navigationTitle("Apple Devices")
         }
-        //paasing to the invironment of the Navigation View.
+        //paasing to the environment of the Navigation View.
         //all the views inside it will be able to access and listen for the changes in the published properties of the object.
         .environmentObject(viewModel)
     }

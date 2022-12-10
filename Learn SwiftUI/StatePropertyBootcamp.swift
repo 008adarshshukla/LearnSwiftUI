@@ -54,7 +54,7 @@ struct StatePropertyBootcamp_Previews: PreviewProvider {
 }
 
 /*
- if we give a variable a state property wrapper then we are telling the view to watch the state of the variable, if its state changes then we might need to change the view.
+ if we give a variable as state property wrapper then we are telling the view to watch the state of the variable, if its state changes then we might need to change the view.
  
  SwiftUI uses the @State property wrapper to allow us to modify values inside a struct, which would normally not be allowed because structs are value types.
  

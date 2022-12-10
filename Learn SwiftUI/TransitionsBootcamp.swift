@@ -65,6 +65,7 @@ struct TransitionsBootcamp_Previews: PreviewProvider {
 }
 
 //transitions are used used when we want to add some view to the view hierarchy(screen) which is not present currently on the screen
+
 //animations are used to change the appearence and behaviour of the view present on the views hierarchy.
 
 //transitions are animations that occur when a View is being drawn on or off the screen. We need to use transition with animation to make it work!

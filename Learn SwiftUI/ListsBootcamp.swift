@@ -32,7 +32,7 @@ struct ListsBootcamp: View {
                     .listRowBackground(Color.red)
                 }
             }
-            //styking the list
+            //styling the list
             .listStyle(InsetGroupedListStyle())
             .navigationTitle("Grocery List")
             .toolbar {

@@ -74,9 +74,13 @@ struct SheetsBootcamp_Previews: PreviewProvider {
 }
 
 /*
- 1.we can use only one sheet per view hierarchy.
+ 1.we can use only one sheet per view hierarchy, which means that we cannot have different sheets for parent and child view.In this case the parent sheet gets executed. But we can have mutiple sheets at particular level in the view, which means a parent or child may in itself can have multiple sheets
+ 
  2.we can also use only one fullScreenCover per view hierarchy.
+ 
  3.we can use either one sheet or one fulllScreenCover per view hierarchy.
+ 
  4.these can be called anywhere in the view hierarchy.
+ 
  5.Using Text("\(showSheet.description)") We can confirm that when the sheet is dismissed the value returns to "false"
  */

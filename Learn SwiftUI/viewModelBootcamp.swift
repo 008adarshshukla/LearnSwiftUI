@@ -90,8 +90,8 @@ struct viewModelBootcamp: View {
 
 struct viewModelBootcamp_Previews: PreviewProvider {
     static var previews: some View {
-        viewModelBootcamp()
-        //RandomView()
+        //viewModelBootcamp()
+        RandomView()
     }
 }
 

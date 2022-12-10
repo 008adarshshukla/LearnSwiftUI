@@ -3,6 +3,10 @@
 //  Learn SwiftUI
 //
 //  Created by Adarsh Shukla on 09/06/22.
+
+/*
+https://www.simpleswiftguide.com/swiftui-datepicker-tutorial-how-to-create-and-use-datepicker-in-swiftui/
+*/
 //
 
 import SwiftUI
@@ -46,6 +50,14 @@ struct DatePickerBootcamp: View {
             Text("The selceted date is : ")
 //            Returns a string representation of a specified date that the system formats using the receiver’s current settings.
             Text(dateFormatter.string(from: selectedDate))
+            
+            //Sixteen years difference.
+            DatePicker( "", selection: $selectedDate, in: ...Date().addingTimeInterval(-504911232), displayedComponents: [.date])
+                .datePickerStyle(.compact)
+                .accentColor(.blue)
+                .padding(.trailing,0)
+                .offset(x: -2)
+            
         }
     }
 }

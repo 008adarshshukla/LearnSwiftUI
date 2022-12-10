@@ -39,7 +39,7 @@ struct GridBootCamp: View {
                     .padding()
                         
                 ) {
-                    ForEach(0..<50) { index in
+                    ForEach(0..<3) { index in
                         Rectangle()
                             .frame(height: 150)
                     }

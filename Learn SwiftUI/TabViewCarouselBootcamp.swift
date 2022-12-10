@@ -26,7 +26,7 @@ struct TabViewCarouselBootcamp: View {
             RadialGradient(colors: [.red, .blue], center: .center, startRadius: 5, endRadius: 300)
         )
         .frame(height: 300)
-        .tabViewStyle(.page)
+        .tabViewStyle(.page(indexDisplayMode: .automatic))
     }
 }
 
