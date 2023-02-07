@@ -25,13 +25,13 @@ struct ShapesBootcamp: View {
             //.stroke()
             //.stroke(.red)
             //.stroke(.red, lineWidth: 25)
-            //.stroke(.red, style: StrokeStyle(lineWidth: 25, lineCap: .butt, dash: [30]))
+            .stroke(.red, style: StrokeStyle(lineWidth: 25, lineCap: .butt, dash: [3]))
             //.trim(from: 0, to: 0.5)
             //.foregroundColor(.red)
         
         //combining trim with stroke.
-            //.trim(from: 0.2, to: 1.0)
-            //.stroke(.red, lineWidth: 20)
+//            .trim(from: 0.2, to: 1.0)
+//            .stroke(.red, lineWidth: 20)
         
             .frame(width: 300, height: 200)
         
